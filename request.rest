@@ -1,0 +1,30 @@
+GET http://localhost:5000/expanse
+
+###
+GET http://localhost:5000/expanse/1
+
+###
+POST  http://localhost:5000/expanse
+Content-Type: application/json
+
+{
+  "title": "tv",
+  "amount": 100.50,
+  "date": "2023-10-08"
+}
+
+###
+POST  http://localhost:5000/expanse
+Content-Type: application/json
+
+{
+  "title": "tolet paper",
+  "amount": 8.00,
+  "date": "2022-10-13"
+}
+
+###
+PATCH   http://localhost:5000/expanse/1
+
+###
+DELETE  http://localhost:5000/expanse/4
